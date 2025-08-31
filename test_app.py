@@ -1,5 +1,6 @@
-import pytest from ACEest_Fitness
-import tkinter as tk
+from math_utils import add_numbers
 
-def test_add_workout():
-    
+def test_add_numbers():
+    assert add_numbers(2,3) == 5
+    assert add_numbers(-1,1) == 0
+    assert add_number(0,0) == 0
