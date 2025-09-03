@@ -4,8 +4,10 @@ on:
   push:
   pull_request:
 
-jobs:
-  build:
+
+Python_application_test:  # <-- This name must match the required check
+    name: Python application test
+
     runs-on: ubuntu-latest
 
     steps:
